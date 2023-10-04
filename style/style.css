@@ -76,7 +76,7 @@ body {
 .Proceed button {
   margin: 20px;
   background-color: var(--Brightblue);
-  padding: 1rem 4.5rem;
+  padding: 20px 2rem;
   color: white;
   font-weight: bold;
   border-radius: 10px;
@@ -101,5 +101,8 @@ body {
 @media (min-width:1000px){
   .container{
     width: 23%;
+  }
+  .middle-rectangle{
+    width: 96%;
   }
 }
