@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@300;400;600&family=Poiret+One&family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root {
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--Paleblue);
+}
+/*************start box content***************/
+.container {
+  width: 100%;
+}
+.container .box {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 8px 11px #c5c5c5;
+}
+.container .box img {
+  border-radius: 20px 20px 0px 0px;
+  margin-bottom: 25px;
+}
+.container .box h3 {
+  color: var(--Darkblue);
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.container .box > p {
+  color: hsl(225deg 13.83% 64.36%);
+  padding: 30px;
+}
+/***************end*********************/
+/*************start middle rectangle**********/
+.middle-rectangle {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: hsl(225deg 100% 95.69%);
+  margin: auto;
+  border-radius: 1rem;
+  align-items: center;
+  justify-items: center;
+  padding: 0.5rem;
+}
+.container .box .music-icon img {
+  margin: 0;
+}
+.middle-rectangle .info span {
+  color: var(--Darkblue);
+  font-weight: 700;
+}
+.middle-rectangle .info p {
+  color: hsl(225deg 13.83% 64.36%);
+}
+.container .box .order-info p {
+  color: hsl(225deg 13.83% 64.36%);
+}
+.change a:hover {
+  text-decoration: none;
+  color: hsl(245deg 100% 69.83%);
+}
+/****************end*************************/
+.Proceed button {
+  margin: 20px;
+  background-color: var(--Brightblue);
+  padding: 1rem 4.5rem;
+  color: white;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0px 8px 7px #c5c5c5;
+}
+.Proceed button:hover {
+  cursor: pointer;
+  background-color: hsl(245deg 100% 69.83%);
+}
+.cancel button {
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 20px;
+  color: hsl(225deg 13.83% 64.36%);
+  font-weight: bold;
+}
+.cancel button:hover {
+  cursor: pointer;
+}
+/*********************************************/
+@media (min-width:1000px){
+  .container{
+    width: 23%;
+  }
+}
