@@ -78,6 +78,7 @@ body {
   background-color: var(--Brightblue);
   padding: 1rem 4.5rem;
   color: white;
+  font-weight: bold;
   border-radius: 10px;
   border: 0;
   box-shadow: 0px 8px 7px #c5c5c5;
