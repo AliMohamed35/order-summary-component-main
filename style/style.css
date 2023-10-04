@@ -76,7 +76,7 @@ body {
 .Proceed button {
   margin: 20px;
   background-color: var(--Brightblue);
-  padding: 20px 2rem;
+  padding: 20px 2.5rem;
   color: white;
   font-weight: bold;
   border-radius: 10px;
